@@ -43,8 +43,6 @@ const store = Redux.createStore(rootReducer);
 
 divOneBtn.addEventListener("click", () => {
   store.dispatch(expandWidthOne("100%"));
-  //   const state = store.getState();
-  //   divOne.style.width = state.divOne;
 });
 divTwoBtn.addEventListener("click", () => {
   store.dispatch(expandWidthTwo("100%"));
