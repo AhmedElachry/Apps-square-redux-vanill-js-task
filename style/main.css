@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+div {
+  display: inline-block;
+  width: 49%;
+  height: 400px;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 400px;
+  border: 1px solid black;
+  margin-top: 1rem;
+}
+button {
+  display: inline-block;
+  margin-top: 3rem;
+}
